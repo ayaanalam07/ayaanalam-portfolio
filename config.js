@@ -3,13 +3,14 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/10.14.0/firebas
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAc0Jx8RSMWaZ76lEXTSB402GHFrRSfDjA",
-  authDomain: "ayaanalam-portfolio.firebaseapp.com",
-  projectId: "ayaanalam-portfolio",
-  storageBucket: "ayaanalam-portfolio.appspot.com",
-  messagingSenderId: "209235266186",
-  appId: "1:209235266186:web:a800a7d658a27fe6fcbb73"
+  apiKey: "AIzaSyABr0d8qTn0EROSXaEjAFP0ctXQ8D1sTH0",
+  authDomain: "ayaanalam-portfolioo.firebaseapp.com",
+  projectId: "ayaanalam-portfolioo",
+  storageBucket: "ayaanalam-portfolioo.appspot.com",
+  messagingSenderId: "637131303394",
+  appId: "1:637131303394:web:d96e388e2ab7ccd14631bb"
 };
+
 
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
